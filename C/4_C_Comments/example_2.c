@@ -7,3 +7,5 @@ int main() {
     printf("Hello\n");
     return 0;
 }
+
+// Explain that /**/ is used to comment on multiple lines

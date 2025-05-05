@@ -9,4 +9,4 @@ int main() {
     printf("Sum: %d\n", sum);
     return 0;
 }
-// explain code steps
+// explain code steps to your self and 
