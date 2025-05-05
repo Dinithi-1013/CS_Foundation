@@ -1,4 +1,4 @@
-# C Snippets Repository
+# CS_Foundation Repository
 
 ## Repository Setup
 
