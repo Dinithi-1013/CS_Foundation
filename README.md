@@ -9,7 +9,7 @@
 cd ~/Documents/Code
 
 # Clone repository
-git clone https://github.com/HameezExE/c-snippets.git
+git clone https://github.com/keshi-xh/CS_Foundation.git
 
 # Enter repository
 cd c-snippets
