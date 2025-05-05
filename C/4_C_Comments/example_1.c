@@ -4,3 +4,5 @@ int main() {
     printf("Hi there!\n");
     return 0;
 }
+
+// Explain that the // are used to comment on a single line
