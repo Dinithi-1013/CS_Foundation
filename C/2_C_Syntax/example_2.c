@@ -9,4 +9,4 @@ int main() {
 // Scope is the range of recognition for a certain variable
 // will be explained better later on after teaching variable
 // Notice that curly brackets are used to define kind of a border 
-//telling what's inside belongs to this certain thing
+// telling what's inside belongs to this certain thing
