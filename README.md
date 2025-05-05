@@ -173,6 +173,20 @@ git commit -m "feat: add new array example"
 git push origin feature/new-snippet
 ```
 
-**Note for Windows Users:** PowerShell supports most Linux-style commands. Use `Get-Alias` to see command mappings. For PATH changes to persist, add through System Properties or use `[Environment]::SetEnvironmentVariable()` with `User`/`Machine` targets.
+## Learning Resources
 
-**Performance Tip:** Combine compilation steps: `gcc -O3 -Wall -o optimized src1.c src2.c`
+### C Programming
+
+- [W3Schools C Tutorial](https://www.w3schools.com/c/) - Comprehensive beginner-friendly C tutorials
+- [CS50's Introduction to Computer Science](https://cs50.harvard.edu/x/) - Harvard's renowned CS course with excellent C programming foundations
+- [CS50 Manual Pages](https://manual.cs50.io/) - Documentation for CS50's C library functions
+
+### Computer Science Fundamentals
+
+- [CS50x on edX](https://www.edx.org/course/cs50s-introduction-to-computer-science) - Free Harvard CS50 course on edX
+
+### Practice Platforms
+
+- [LeetCode](https://leetcode.com/) - Coding challenges and interview preparation
+- [HackerRank](https://www.hackerrank.com/) - Coding challenges with C programming track
+- [Codewars](https://www.codewars.com/) - Programming challenges to improve skills
