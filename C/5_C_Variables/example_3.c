@@ -5,3 +5,4 @@ int main() {
     return 0;
 }
 //declaration of multiple variables 
+// Explain how multiple variables are used in printf to print
