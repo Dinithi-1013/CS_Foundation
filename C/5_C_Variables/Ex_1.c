@@ -8,10 +8,10 @@ int main() {
     b = getchar();
     // type the code below, use "a" and "b" as the variables
     //print the initial numbers
-    printf("'a' before swap %c\n'b' before swap %c\n", a, b);
+    printf("a before swap %c\nb before swap %c\n", a, b);
     // write the code to swap 'a' and 'b'
 
     //then the numbers after swap    
-    printf("'a' after swap %c\n'b' after swap %c\n", a, b);
+    printf("a after swap %c\nb after swap %c\n", a, b);
     return 0;
 }
