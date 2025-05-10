@@ -12,3 +12,46 @@ int main() {
     // make sure to use the floats above
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//if this doesn't compile you don't remember anything we did in the last session 
+// check carefully 
