@@ -1,109 +1,306 @@
-// Arithmetic Operators
+#include <stdio.h>
 
-// +  Addition
-//     Adds two operands. Example: a + b
+// Function Declarations (Headers)
 
-// -  Subtraction
-//     Subtracts the right operand from the left. Example: a - b
+// Arithmetic
+void additionExample();
+void subtractionExample();
+void multiplicationExample();
+void divisionExample();
+void modulusExample();
+void incrementExample();
+void decrementExample();
 
-// *  Multiplication
-//     Multiplies two operands. Example: a * b
+// Assignment
+void simpleAssignmentExample();
+void addAssignExample();
+void subtractAssignExample();
+void multiplyAssignExample();
+void divideAssignExample();
+void modulusAssignExample();
+void leftShiftAssignExample();
+void rightShiftAssignExample();
+void andAssignExample();
+void xorAssignExample();
+void orAssignExample();
 
-// /  Division
-//     Divides the left operand by the right. Example: a / b
+// Comparison
+void equalComparisonExample();
+void notEqualExample();
+void greaterThanExample();
+void lessThanExample();
+void greaterEqualExample();
+void lessEqualExample();
 
-// %  Modulus (remainder)
-//     Returns the remainder after division. Example: a % b
+// Logical
+void logicalAndExample();
+void logicalOrExample();
+void logicalNotExample();
 
-// ++ Increment
-//     Increases an integer value by one. Example: a++ or ++a
+// Bitwise
+void bitwiseAndExample();
+void bitwiseOrExample();
+void bitwiseXorExample();
+void bitwiseNotExample();
+void leftShiftExample();
+void rightShiftExample();
 
-// -- Decrement
-//     Decreases an integer value by one. Example: a-- or --a
+int main() {
+    // Arithmetic Operators
+    additionExample();
+    subtractionExample();
+    multiplicationExample();
+    divisionExample();
+    modulusExample();
+    incrementExample();
+    decrementExample();
 
-// Assignment Operators
+    // Assignment Operators
+    simpleAssignmentExample();
+    addAssignExample();
+    subtractAssignExample();
+    multiplyAssignExample();
+    divideAssignExample();
+    modulusAssignExample();
+    leftShiftAssignExample();
+    rightShiftAssignExample();
+    andAssignExample();
+    xorAssignExample();
+    orAssignExample();
 
-// =   Simple assignment
-//     Assigns the value on the right to the variable on the left. Example: a = b
+    // Comparison Operators
+    equalComparisonExample();
+    notEqualExample();
+    greaterThanExample();
+    lessThanExample();
+    greaterEqualExample();
+    lessEqualExample();
 
-// +=  Add and assign
-//     Adds right operand to left and assigns result to left. Example: a += b (same as a = a + b)
+    // Logical Operators
+    logicalAndExample();
+    logicalOrExample();
+    logicalNotExample();
 
-// -=  Subtract and assign
-//     Subtracts right operand from left and assigns result to left. Example: a -= b
+    // Bitwise Operators
+    bitwiseAndExample();
+    bitwiseOrExample();
+    bitwiseXorExample();
+    bitwiseNotExample();
+    leftShiftExample();
+    rightShiftExample();
 
-// *=  Multiply and assign
-//     Multiplies left operand by right and assigns result to left. Example: a *= b
+    return 0;
+}
 
-// /=  Divide and assign
-//     Divides left operand by right and assigns result to left. Example: a /= b
+// Arithmetic Operator Functions
 
-// %=  Modulus and assign
-//     Takes modulus using two operands and assigns result to left. Example: a %= b
+// + Addition: Adds two operands. Example: a + b
+void additionExample() {
+    int a = 5, b = 3;
+    printf("5 + 3 = %d\n", a + b);
+}
 
-// <<= Left shift and assign
-//     Shifts bits of left operand left by right operand and assigns result. Example: a <<= 2
+// - Subtraction: Subtracts right operand from left. Example: a - b
+void subtractionExample() {
+    int a = 5, b = 3;
+    printf("5 - 3 = %d\n", a - b);
+}
 
-// >>= Right shift and assign
-//     Shifts bits of left operand right by right operand and assigns result. Example: a >>= 2
+// * Multiplication: Multiplies two operands. Example: a * b
+void multiplicationExample() {
+    int a = 5, b = 3;
+    printf("5 * 3 = %d\n", a * b);
+}
 
-// &=  Bitwise AND and assign
-//     Performs bitwise AND on operands and assigns result to left. Example: a &= b
+// / Division: Divides left operand by right. Example: a / b
+void divisionExample() {
+    int a = 10, b = 2;
+    printf("10 / 2 = %d\n", a / b);
+}
 
-// ^=  Bitwise XOR and assign
-//     Performs bitwise XOR on operands and assigns result to left. Example: a ^= b
+// % Modulus: Returns remainder of division. Example: a % b
+void modulusExample() {
+    int a = 10, b = 3;
+    printf("10 %% 3 = %d\n", a % b);
+}
 
-// |=  Bitwise OR and assign
-//     Performs bitwise OR on operands and assigns result to left. Example: a |= b
+// ++ Increment: Increases integer value by one. Example: a++
+void incrementExample() {
+    int a = 7;
+    printf("a before a++: %d\n", a);
+    a++;
+    printf("a after a++: %d\n", a);
+}
 
-// Comparison Operators
+// -- Decrement: Decreases integer value by one. Example: --a
+void decrementExample() {
+    int a = 7;
+    printf("a before --a: %d\n", a);
+    --a;
+    printf("a after --a: %d\n", a);
+}
 
-//Comparison operators
-// ==  Equal to
-//     Checks if two operands are equal. Example: a == b
+// Assignment Operator Functions
 
-// !=  Not equal to
-//     Checks if two operands are not equal. Example: a != b
+// = Simple assignment: Assigns right value to left variable. Example: a = b
+void simpleAssignmentExample() {
+    int a;
+    a = 4;
+    printf("a = 4 -> a is %d\n", a);
+}
 
-// >   Greater than
-//     Checks if left operand is greater than right. Example: a > b
+// += Add and assign: a += b is same as a = a + b
+void addAssignExample() {
+    int a = 4;
+    a += 6;
+    printf("a += 6 -> a is %d\n", a);
+}
 
-// <   Less than
-//     Checks if left operand is less than right. Example: a < b
+// -= Subtract and assign: a -= b is same as a = a - b
+void subtractAssignExample() {
+    int a = 10;
+    a -= 3;
+    printf("a -= 3 -> a is %d\n", a);
+}
 
-// >=  Greater than or equal to
-//     Checks if left operand is greater than or equal to right. Example: a >= b
+// *= Multiply and assign: a *= b is same as a = a * b
+void multiplyAssignExample() {
+    int a = 5;
+    a *= 3;
+    printf("a *= 3 -> a is %d\n", a);
+}
 
-// <=  Less than or equal to
-//     Checks if left operand is less than or equal to right. Example: a <= b
+// /= Divide and assign: a /= b is same as a = a / b
+void divideAssignExample() {
+    int a = 20;
+    a /= 4;
+    printf("a /= 4 -> a is %d\n", a);
+}
 
-// Logical Operators
+// %= Modulus and assign: a %= b is same as a = a % b
+void modulusAssignExample() {
+    int a = 20;
+    a %= 7;
+    printf("a %%= 7 -> a is %d\n", a);
+}
 
-// &&  Logical AND
-//     Returns true if both operands are true. Example: a && b
+// <<= Left shift and assign: Shifts bits of a left by 2. Example: a <<= 2
+void leftShiftAssignExample() {
+    int a = 1;
+    a <<= 2;
+    printf("a <<= 2 -> a is %d\n", a);
+}
 
-// ||  Logical OR
-//     Returns true if at least one operand is true. Example: a || b
+// >>= Right shift and assign: Shifts bits of a right by 1. Example: a >>= 1
+void rightShiftAssignExample() {
+    int a = 8;
+    a >>= 1;
+    printf("a >>= 1 -> a is %d\n", a);
+}
 
-// !   Logical NOT
-//     Reverses the logical state of its operand. Example: !a
+// &= Bitwise AND and assign: a &= b is same as a = a & b
+void andAssignExample() {
+    int a = 6; // 110
+    a &= 3;    // 011
+    printf("6 &= 3 -> a is %d\n", a);
+}
 
-// Bitwise Operators
+// ^= Bitwise XOR and assign: a ^= b is same as a = a ^ b
+void xorAssignExample() {
+    int a = 6; // 110
+    a ^= 3;    // 011
+    printf("6 ^= 3 -> a is %d\n", a);
+}
 
-// &   Bitwise AND
-//     Performs AND on each bit of two numbers. Example: a & b
+// |= Bitwise OR and assign: a |= b is same as a = a | b
+void orAssignExample() {
+    int a = 6; // 110
+    a |= 1;    // 001
+    printf("6 |= 1 -> a is %d\n", a);
+}
 
-// |   Bitwise OR
-//     Performs OR on each bit of two numbers. Example: a | b
+// Comparison Operator Functions
 
-// ^   Bitwise XOR
-//     Performs XOR on each bit of two numbers. Example: a ^ b
+// == Equal to: Returns true if operands are equal
+void equalComparisonExample() {
+    int a = 5, b = 5;
+    printf("5 == 5 -> %s\n", (a == b) ? "true" : "false");
+}
 
-// ~   Bitwise NOT (one's complement)
-//     Inverts all the bits of the operand. Example: ~a
+// != Not equal to: Returns true if operands are not equal
+void notEqualExample() {
+    int a = 5, b = 3;
+    printf("5 != 3 -> %s\n", (a != b) ? "true" : "false");
+}
 
-// <<  Left shift
-//     Shifts bits of the left operand left by the number of positions specified by the right operand. Example: a << 2
+// > Greater than: Returns true if left is greater than right
+void greaterThanExample() {
+    printf("5 > 3 -> %s\n", (5 > 3) ? "true" : "false");
+}
 
-// >>  Right shift
-//     Shifts bits of the left operand right by the number of positions specified by the right operand. Example: a >> 2
+// < Less than: Returns true if left is less than right
+void lessThanExample() {
+    printf("3 < 5 -> %s\n", (3 < 5) ? "true" : "false");
+}
+
+// >= Greater than or equal to: Returns true if left >= right
+void greaterEqualExample() {
+    printf("5 >= 5 -> %s\n", (5 >= 5) ? "true" : "false");
+}
+
+// <= Less than or equal to: Returns true if left <= right
+void lessEqualExample() {
+    printf("3 <= 5 -> %s\n", (3 <= 5) ? "true" : "false");
+}
+
+// Logical Operator Functions
+
+// && Logical AND: True if both conditions are true
+void logicalAndExample() {
+    int a = 1, b = 0;
+    printf("1 && 0 -> %s\n", (a && b) ? "true" : "false");
+}
+
+// || Logical OR: True if at least one condition is true
+void logicalOrExample() {
+    int a = 1, b = 0;
+    printf("1 || 0 -> %s\n", (a || b) ? "true" : "false");
+}
+
+// ! Logical NOT: Reverses the condition
+void logicalNotExample() {
+    int a = 0;
+    printf("!0 -> %s\n", (!a) ? "true" : "false");
+}
+
+// Bitwise Operator Functions
+
+// & Bitwise AND: Each bit ANDed. Example: 6 & 3
+void bitwiseAndExample() {
+    printf("6 & 3 = %d\n", 6 & 3);
+}
+
+// | Bitwise OR: Each bit ORed. Example: 6 | 3
+void bitwiseOrExample() {
+    printf("6 | 3 = %d\n", 6 | 3);
+}
+
+// ^ Bitwise XOR: Each bit XORed. Example: 6 ^ 3
+void bitwiseXorExample() {
+    printf("6 ^ 3 = %d\n", 6 ^ 3);
+}
+
+// ~ Bitwise NOT: One's complement. Example: ~6
+void bitwiseNotExample() {
+    printf("~6 = %d\n", ~6);
+}
+
+// << Left shift: Shifts bits to left. Example: 2 << 1
+void leftShiftExample() {
+    printf("2 << 1 = %d\n", 2 << 1);
+}
+
+// >> Right shift: Shifts bits to right. Example: 8 >> 1
+void rightShiftExample() {
+    printf("8 >> 1 = %d\n", 8 >> 1);
+}
