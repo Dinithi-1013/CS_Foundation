@@ -1,9 +1,15 @@
 #include <stdio.h>
 int main() {
     int a = 20, b = 5;
-    printf("Add: %d\n", a + b);
-    printf("Subtract: %d\n", a - b);
-    printf("Multiply: %d\n", a * b);
-    printf("Divide: %d\n", a / b);
+
+    // Write a program to print the values of a & b:
+
+    // 1. ADDITION 
+    // 2. SUBSTRACTION 
+    // 3. MULTIPLICATION 
+    // 4. DEVISION 
+    
+    // in your terminal
+
     return 0;
 }
