@@ -81,13 +81,13 @@ int main() {
     logicalOrExample();
     logicalNotExample();
 
-    // Bitwise Operators
-    bitwiseAndExample();
-    bitwiseOrExample();
-    bitwiseXorExample();
-    bitwiseNotExample();
-    leftShiftExample();
-    rightShiftExample();
+    // // Bitwise Operators
+    // bitwiseAndExample();
+    // bitwiseOrExample();
+    // bitwiseXorExample();
+    // bitwiseNotExample();
+    // leftShiftExample();
+    // rightShiftExample();
 
     return 0;
 }
