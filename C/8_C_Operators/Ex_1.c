@@ -7,7 +7,7 @@ int main() {
     // 1. ADDITION 
     // 2. SUBSTRACTION 
     // 3. MULTIPLICATION 
-    // 4. DEVISION 
+    // 4. DIVISION 
     
     // in your terminal
 
