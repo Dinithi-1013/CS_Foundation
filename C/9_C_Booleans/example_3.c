@@ -5,3 +5,6 @@ int main() {
     printf("Both true: %d\n", both);
     return 0;
 }
+
+
+// Remark:notice that the code is read from right to left always when the compiler reads the code
