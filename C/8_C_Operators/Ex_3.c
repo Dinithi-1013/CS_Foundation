@@ -1,10 +1,7 @@
 #include <stdio.h>
 int main() {
-    int num = 8;
-    if (num % 2 == 0) {
-        printf("%d is even\n", num);
-    } else {
-        printf("%d is odd\n", num);
-    }
+
+    // Write a program to check if a number is even or odd
+    
     return 0;
 }
