@@ -14,6 +14,7 @@ int main() {
     // 2. SUBSTRACTION 
     // 3. MULTIPLICATION 
     // 4. DIVISION (Make sure you can calculate decimal values)
+    // 5. REMAINDER AFTER DIVISION
     
     // in your terminal
 

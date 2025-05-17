@@ -37,13 +37,13 @@ void logicalAndExample();
 void logicalOrExample();
 void logicalNotExample();
 
-// Bitwise
-void bitwiseAndExample();
-void bitwiseOrExample();
-void bitwiseXorExample();
-void bitwiseNotExample();
-void leftShiftExample();
-void rightShiftExample();
+// // Bitwise
+// void bitwiseAndExample();
+// void bitwiseOrExample();
+// void bitwiseXorExample();
+// void bitwiseNotExample();
+// void leftShiftExample();
+// void rightShiftExample();
 
 int main() {
     // Arithmetic Operators
@@ -273,34 +273,34 @@ void logicalNotExample() {
     printf("!0 -> %s\n", (!a) ? "true" : "false");
 }
 
-// Bitwise Operator Functions
+// // Bitwise Operator Functions
 
-// & Bitwise AND: Each bit ANDed. Example: 6 & 3
-void bitwiseAndExample() {
-    printf("6 & 3 = %d\n", 6 & 3);
-}
+// // & Bitwise AND: Each bit ANDed. Example: 6 & 3
+// void bitwiseAndExample() {
+//     printf("6 & 3 = %d\n", 6 & 3);
+// }
 
-// | Bitwise OR: Each bit ORed. Example: 6 | 3
-void bitwiseOrExample() {
-    printf("6 | 3 = %d\n", 6 | 3);
-}
+// // | Bitwise OR: Each bit ORed. Example: 6 | 3
+// void bitwiseOrExample() {
+//     printf("6 | 3 = %d\n", 6 | 3);
+// }
 
-// ^ Bitwise XOR: Each bit XORed. Example: 6 ^ 3
-void bitwiseXorExample() {
-    printf("6 ^ 3 = %d\n", 6 ^ 3);
-}
+// // ^ Bitwise XOR: Each bit XORed. Example: 6 ^ 3
+// void bitwiseXorExample() {
+//     printf("6 ^ 3 = %d\n", 6 ^ 3);
+// }
 
-// ~ Bitwise NOT: One's complement. Example: ~6
-void bitwiseNotExample() {
-    printf("~6 = %d\n", ~6);
-}
+// // ~ Bitwise NOT: One's complement. Example: ~6
+// void bitwiseNotExample() {
+//     printf("~6 = %d\n", ~6);
+// }
 
-// << Left shift: Shifts bits to left. Example: 2 << 1
-void leftShiftExample() {
-    printf("2 << 1 = %d\n", 2 << 1);
-}
+// // << Left shift: Shifts bits to left. Example: 2 << 1
+// void leftShiftExample() {
+//     printf("2 << 1 = %d\n", 2 << 1);
+// }
 
-// >> Right shift: Shifts bits to right. Example: 8 >> 1
-void rightShiftExample() {
-    printf("8 >> 1 = %d\n", 8 >> 1);
-}
+// // >> Right shift: Shifts bits to right. Example: 8 >> 1
+// void rightShiftExample() {
+//     printf("8 >> 1 = %d\n", 8 >> 1);
+// }
