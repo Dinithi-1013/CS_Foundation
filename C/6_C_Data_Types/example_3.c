@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
     // A 'char' is a data type in C used to store a single character.
     // It typically takes 1 byte of memory and can store any character from the ASCII table.
