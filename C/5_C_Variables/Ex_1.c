@@ -10,7 +10,7 @@ int main() {
     //print the initial numbers
     printf("a before swap %c\nb before swap %c\n", a, b);
     // write the code to swap 'a' and 'b'
- 
+
     //then the numbers after swap    
     printf("a after swap %c\nb after swap %c\n", a, b);
     return 0;
