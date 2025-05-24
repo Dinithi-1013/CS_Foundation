@@ -13,7 +13,9 @@ int main()
     scanf("%d", &age); // Reads an integer
 
     printf("Hello, %s! You are %d years old.\n", name, age);
-
+    for(int i = 0; i<=50 ; i++){
+        printf("%c",name[i]);
+    }
     return 0;
 }
 
