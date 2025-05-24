@@ -4,7 +4,7 @@
 int main() {
     // type your code below
     int num = 0;  // Test with different values
-    // Optionally try getting inputs using scanf and cheking if it's even, odd or zero
+    // Optionally try getting inputs using scanf and checking if it's even, odd or zero
     
     // type your code above
     return 0;
