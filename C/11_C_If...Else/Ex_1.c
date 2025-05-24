@@ -1,9 +1,13 @@
-/*
-Objective
+#include <stdio.h>
+// Determine if a number is even, odd, or zero
 
-Write a C program to determine whether a given year is a leap year using only if-else statements, without using any loops. The program must apply the standard leap year rules and handle invalid inputs.
-Leap Year Rules
-A year is a leap year if it satisfies the following conditions:
-The year is divisible by 4 and not divisible by 100, or
-The year is divisible by 400.
-*/
+int main() {
+    // type your code below
+    int num = 0;  // Test with different values
+    // Optionally try getting inputs using scanf and cheking if it's even, odd or zero
+    
+    // type your code above
+    return 0;
+}
+
+// Exercise should be done using if...else after covering the topic
