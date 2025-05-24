@@ -1,5 +1,7 @@
 #include <stdio.h>
-//Check if a number is positive, zero or negative.
+#include <stdbool.h>
+
+//Check if two integers are equal, then print an output accordingly
 
 int main() {
     //type your code below
@@ -8,5 +10,4 @@ int main() {
     return 0;
 }
 
-//Exercise should be done only if the if...else module has been done in the class
-//Exercise should be done again after the User Input module has been done
+
