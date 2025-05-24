@@ -14,7 +14,7 @@ int main()
 
     printf("Hello, %s! You are %d years old.\n", name, age);
     for(int i = 0; name[i] != '\0' ; i++){
-        printf("%c",name[i]);
+        printf("%c",name[i+1]);
     }
     printf("\n");
     return 0;
