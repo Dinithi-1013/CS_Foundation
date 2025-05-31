@@ -1,5 +1,6 @@
 #include <stdio.h>
-// Check if an email contains '@' and '.' in the correct  and print whether a valid email or not
+// Write a program to check if a given email address contains both '@' and '.' characters in the correct order.
+// Use a for loop to check if the email contains both characters, and print whether it is a valid email or not.
 
 int main() {
     // type your code below
@@ -9,5 +10,3 @@ int main() {
     // type your code above
     return 0;
 }
-
-// Use a for loop to check if the email contains both '@' and '.' 
