@@ -8,8 +8,6 @@ int main() {
     int count = 0;      // Initialize a counter for digits
     
     // Optional: Get input from the user
-    // printf("Enter an integer: ");
-    // scanf("%d", &number);
 
     // Use a while loop to count the digits
     
