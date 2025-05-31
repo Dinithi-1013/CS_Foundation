@@ -11,7 +11,7 @@ int main() {
     // Continue looping as long as:
     //   - The character read is not a newline character ('\n')
     //   - The index 'i' is less than 999 (to avoid buffer overflow)
-    while ((ch = getchar()) != '\n' && i < 999) {
+    while ((ch = getchar()) != '\n' && i < 999 && ch != EOF) {
         input[i] = ch; // Store the character in the input array at position 'i'
         i++;           // Increment the index to move to the next position
     }
