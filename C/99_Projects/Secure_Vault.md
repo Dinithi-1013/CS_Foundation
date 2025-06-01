@@ -17,7 +17,7 @@ Design a C program that simulates a secure vault with a combination lock. The va
 
 ## Example Runs
 
-```
+```c
 Enter the 4-digit PIN: 5723
 Incorrect code. 2 digits correct.
 Attempts remaining: 4.
@@ -31,7 +31,7 @@ Enter the 4-digit PIN: 5732
 Correct code! Vault unlocked.
 ```
 
-```
+``` c
 Enter the 4-digit PIN: 5721
 Incorrect code. 2 digits correct.
 Attempts remaining: 4.
