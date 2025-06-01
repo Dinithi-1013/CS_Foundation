@@ -4,3 +4,6 @@
 *.ps1
 **/answer/
 **/MY_FOLDER/
+*.out
+*.exe
+a.out
