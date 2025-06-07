@@ -2,8 +2,9 @@
 *.exe
 *.deb
 *.ps1
-**/answer/
+**/Answers/
 **/MY_FOLDER/
 *.out
 *.exe
 a.out
+Answers
