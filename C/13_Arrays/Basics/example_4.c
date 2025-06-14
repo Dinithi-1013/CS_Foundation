@@ -30,6 +30,7 @@ int main() {
     // String input from user
     char city[20];
     printf("Enter your city: ");
+    // scanf with "%19s" reads up to 19 characters and adds the null terminator automatically
     scanf("%19s", city);  // Limit input to prevent overflow
     printf("You live in: %s\n", city);
 
